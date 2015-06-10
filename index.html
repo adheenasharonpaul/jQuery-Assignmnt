@@ -1,0 +1,58 @@
+<html>
+    
+<head>
+        
+<title>Assignment</title>
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        
+<script src="javasrpt.js" type="text/javascript"></script>
+        
+<link href="style.css" rel="stylesheet" type="text/css"/>
+    
+</head>
+    
+<body>
+        
+<img id="loadfl" src="loading.gif" alt="none" width="400"/>
+        
+<div id="container">
+            
+<select onchange="hglt(this.value)">
+                
+<option>select</option>
+                
+<option value="JavaScript">JavaScript</option>
+                
+<option value="Objective-C">Objective-C</option>
+                
+<option value="Ruby">Ruby</option>
+                
+<option value="Shell">Shell</option>
+                
+<option value="M">M</option> 
+                
+<option value="CSS">CSS</option>
+                
+<option value="C">C</option>
+ 
+<option value="null">null</option>           
+</select>
+            
+<input type="button" value="Clear" onclick="clr()"/>
+            
+<br/>
+            
+<br/>
+            
+<table id="mytab" border="1">
+                
+<tr><th width="50"><div align="center">Name</div></th><th width="70"><div align="center">Full name</div></th><th width="50"><div align="center">Size</div></th><th width="110"><div align="center">Created At</div></th><th width="50"><div align="center">Has Issues</div></th><th width="50"><div align="center">Has Downloads</div></th><th width="50"><div align="center">Watchers</div></th><th width="80"><div align="center">Language</div></th></tr>
+            
+</table>
+        
+</div>
+    
+</body>
+
+</html>
