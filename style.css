@@ -1,7 +1,10 @@
-#loadfl{position: relative;top: 100px;left: 450px;}
+#loadimg
+{position: relative;top: 100px;left: 450px;}
 
 
-#container{display: none;}
+#section
+{display: none;}
 
 
-#mytab{position: relative;left: 150px;}
+#mytable
+{position: relative;left: 150px;}
